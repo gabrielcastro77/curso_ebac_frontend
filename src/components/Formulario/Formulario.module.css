@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 238, 255, 0.048);
+}
+
+p {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgb(0, 238, 255);
+    padding: 5px;
+}
+
+.form {
+    background-color: rgb(0, 238, 255);
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+input, button {
+    margin-right: 10px;
+    padding: 5px;
+    width: 30%;
+}
+
+.table {
+    max-width: 960px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+table caption {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 5px;
+    color: rgb(0, 238, 255);
+}
+
+table td, th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
