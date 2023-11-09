@@ -53,7 +53,7 @@ function Formulario() {
             <form className={styles.form}>
                 <input type="number" placeholder="Digite seu Peso" onBlur={e => setPeso(Number(e.target.value))} className={styles.input} />
                 <input type="number" placeholder="Digite sua Altura" onBlur={e => setAltura(parseFloat(e.target.value))} className={styles.input} />
-                <button type="button" onClick={e => setformularioVisivel(true)} className={styles.button}>Verificar</button>
+                <button type="button" onClick={() => setformularioVisivel(true)} className={styles.button}>Verificar</button>
             </form>
             {formularioVisivel && (
                 <div>
